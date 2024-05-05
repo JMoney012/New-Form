@@ -1,0 +1,34 @@
+html {
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+
+form {
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media screen and (min-width:400px){
+    html {
+        background-color: rgba(rgb(194, 172, 172), green, blue, alpha);
+    }
+}
+
+@media screen and (min-width: 10240px){
+    html {
+        background-color: lightgrey;
+    }
+}
+
+@media screen and (min-width: 1680px){
+    html {
+        background-color: grey;
+    }
+}
